@@ -1,0 +1,58 @@
+/* ビジュアルエディタのフォントはこのクラスで指定 */
+body.mceContentBody {
+    font: 14px;
+    font-family: 'メイリオ','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック';
+}
+
+.editor-area {
+    margin: 0px 20px 0.5em 20px;
+    font-size:14px;
+    line-height:150%;
+}
+
+/* aタグのスタイル */
+.editor-area a {
+    color: #46C9F2;
+    text-decoration: underline;
+}
+
+/* 見出し4 */
+h2 {
+    font-size:22px;
+    text-decoration: none;
+    background: #fff;
+    border-top:1px solid #ddd;
+    border-right:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:3px solid #3cf;
+    padding: 5px 0 5px 10px;
+    margin-top:2.0em;
+    background: -moz-linear-gradient(top, #fff 0%, #eee 50%, #ddd 51%, #fff 100%); /* firefox */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(50%,#eee), color-stop(51%,#ddd), color-stop(100%,#fff)); /* webkit */
+    -pie-background:linear-gradient(top, #fff 0%, #eee 50%, #ddd 51%, #fff 100%); /* ie */
+    behavior: url(PIE-1.0.0/PIE.htc); /* ie */
+    font-weight: bold;
+}
+
+/* 見出し5 */
+h5 {
+    border-left:5px solid #3cf;
+    border-bottom:1px solid #3cf;
+    padding:.3em 1.5em;
+    font-size:16px;
+    text-indent:-1.3em;
+    margin-top:1.2em;
+    margin-bottom:.7em;
+    font-weight:bold
+}
+
+/* 見出し6 */
+h6 {
+    border-bottom:1px dashed #3cf;
+    padding:.3em 1.5em;
+    font-size:16px;
+    text-indent:-1.3em;
+    margin-top:1.2em;
+    margin-bottom:.7em;
+    font-weight:bold
+}
